@@ -42,5 +42,3 @@ studybuddy-assistant/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-│
-└── chroma_db/
