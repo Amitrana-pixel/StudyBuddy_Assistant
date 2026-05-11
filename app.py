@@ -1,3 +1,7 @@
+__import__("pysqlite3")
+import sys
+
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 import tempfile
 import os
 from dotenv import load_dotenv
@@ -162,7 +166,6 @@ if process_btn and uploaded_files:
         vectorstore = Chroma.from_documents(
             documents=chunks,
             embedding=embedding_model,
-            persist_directory="chroma_db"
         )
 
         st.session_state.vectorstore = vectorstore
