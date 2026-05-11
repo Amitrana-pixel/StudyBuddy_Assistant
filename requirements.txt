@@ -1,0 +1,34 @@
+
+
+tiktoken
+
+# LangChain
+langchain
+langchain-community
+langchain-openai
+
+# Vector Database
+faiss-cpu
+chromadb
+
+# Embedding Models
+sentence-transformers
+torch
+
+# Backend API
+fastapi
+uvicorn
+
+
+# File Processing
+pypdf
+pdfplumber
+docx2txt
+unstructured
+
+# Environment Variables
+python-dotenv
+
+# Data Processing
+pandas
+numpy 
