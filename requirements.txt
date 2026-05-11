@@ -6,6 +6,7 @@ tiktoken
 langchain
 langchain-community
 langchain-openai
+langchain-mistralai
 
 # Vector Database
 faiss-cpu
