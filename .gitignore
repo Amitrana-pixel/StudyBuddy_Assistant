@@ -1,0 +1,11 @@
+venv/
+.venv/
+.env
+
+__pycache__/
+*.pyc
+
+chroma_db/
+chroma_db_streamlit/
+
+vector store/
